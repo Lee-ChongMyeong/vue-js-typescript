@@ -3,8 +3,6 @@
     "target": "esnext",
     "module": "esnext",
     "strict": true,
-    "noImplicitAny": true,
-    "allowJs": true,
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
@@ -34,7 +32,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx",
-    "src/types/**/*.d.ts"
+    "src/types/*.d.ts"
   ],
   "exclude": [
     "node_modules"
